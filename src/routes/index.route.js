@@ -53,6 +53,26 @@ routes.get('/carreras-vigentes',(req, res)=>{
     res.render('carreras-vigentes');
 })
 
+// routes.get('/carreras-vigentes/arte-culinario',(req, res)=>{
+//     res.render('arte-culinario');
+// })
+// routes.get('/carreras-vigentes/control-incendios-y-operaciones-rescate',(req, res)=>{
+//     res.render('control-incendios-y-operaciones-rescate');
+// })
+// routes.get('/carreras-vigentes/desarrollo-software',(req, res)=>{
+//     res.render('desarrollo-software');
+// })
+// routes.get('/carreras-vigentes/diseno-modas',(req, res)=>{
+//     res.render('diseno-modas');
+// })
+// routes.get('/carreras-vigentes/turismo',(req, res)=>{
+//     res.render('turismo');
+// })
+// routes.get('/carreras-vigentes/marketing',(req, res)=>{
+//     res.render('marketing');
+// })
+
+
 routes.get('/carreras-no-vigentes',(req, res)=>{
     res.render('carreras-no-vigentes');
 })
@@ -61,17 +81,23 @@ routes.get('/carreras-no-vigentes',(req, res)=>{
 routes.get('/capacitacion-continua',(req, res)=>{
     res.render('capacitacion-continua');
 })
-
 routes.get('/ingles',(req, res)=>{
     res.render('ingles');
 })
+// routes.get('/cursos-docencia',(req, res)=>{
+//     res.render('cursos-docencia');
+// })
+// routes.get('/cursos-patronaje-confeccion',(req, res)=>{
+//     res.render('cursos-patronaje-confeccion');
+// })
 
 
+//Quinta Pestaña - Rendición de Cuentas
 routes.get('/rendicion-cuentas',(req, res)=>{
     res.render('rendicion-cuentas');
 })
 
-
+//Sexta Pestaña - Aula Virtual
 routes.get('/ebooks7-24',(req, res)=>{
     res.render('ebooks7-24');
 })
@@ -79,5 +105,10 @@ routes.get('/ebooks7-24',(req, res)=>{
 routes.get('/investigacion',(req, res)=>{
     res.render('investigacion');
 })
+
+//Séptima Pestaña - Contáctanos
+// routes.get('/contactanos',(req, res)=>{
+//     res.render('contactanos');
+// })
 
 module.exports=routes;
