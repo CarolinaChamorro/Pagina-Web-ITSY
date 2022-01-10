@@ -61,7 +61,7 @@
   display: flex;
 }
 .section-hex{
-  background:#333;
+  background: #2e4673;
 }
 
 .title-section-hex-white{
@@ -162,7 +162,7 @@
   width: 100%;
   padding: 5%;
   box-sizing: border-box;
-  background-color:#333;
+  background-color:#005cb9;
   color:#ddd;
   font-weight: 300;
   -webkit-transition: -webkit-transform 0.2s ease-out, opacity 0.3s ease-out;
@@ -170,7 +170,7 @@
 }
 .hex h1{
   font-weight: 500;
-  color:#e35000 !important;
+  color:#fff !important;
 }
 
 .hex h1 {

@@ -7,7 +7,7 @@
     color:white;
   }
   .barraSuperior{
-    background-color: #e35000;
+    background-color: #005cb9;
   }
   
   .menu {
@@ -23,13 +23,13 @@
 
   .logo{
     width: 130px;
-    height: 80px;
+    height: 100px;
     padding: 5px;
   }
 
   .logo-footer{
-    width: 200px;
-    height: 130px;
+    width: 238px;
+    height: 200px;
     padding: 5px;
   }
   .topnav {
@@ -146,7 +146,7 @@
   
   
   .footer {
-      background-color: #e35000;
+      background-color: #005cb9;
   }
   .footer-wave-svg {
       background-color: transparent;
