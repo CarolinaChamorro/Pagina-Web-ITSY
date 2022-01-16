@@ -260,6 +260,60 @@ body{
     overflow:hidden;
     background-position-x: center;
 }
+.imagen-banner-arte-culinario{
+    width: auto;
+    height:54vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/carreras-vigentes/banner-arte-culinario2.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    overflow:hidden;
+    background-position-x: center;
+}
+.imagen-banner-control-incendios{
+    width: auto;
+    height:54vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/carreras-vigentes/banner-control-de-incendios.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    overflow:hidden;
+    background-position-x: center;
+}
+.imagen-banner-desarrollo-software{
+    width: auto;
+    height:54vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/carreras-vigentes/banner-software.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    overflow:hidden;
+    background-position-x: center;
+}
+.imagen-banner-diseno-modas{
+    width: auto;
+    height:54vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/carreras-vigentes/banner-diseñomodas.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    overflow:hidden;
+    background-position-x: center;
+}
+.imagen-banner-turismo{
+    width: auto;
+    height:54vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/carreras-vigentes/banner-guia-nacional.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    overflow:hidden;
+    background-position-x: center;
+}
+.imagen-banner-marketing{
+    width: auto;
+    height:54vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/carreras-vigentes/banner-marketing.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    overflow:hidden;
+    background-position-x: center;
+}
 .imagen-mision-vision{
     width: 100%;
     padding-top: 10%;

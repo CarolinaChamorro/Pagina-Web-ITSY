@@ -43,6 +43,15 @@
   font-size: 100%;
   text-align: center;
 }
+.margin-top-parrafo-final{
+  margin-top: 80px;
+}
+.hover{
+  color: white;
+}
+.hover:hover{
+  color: #3366ff;
+}
 .img-parrofo-final{
   justify-content: center;
   display: flex;
@@ -252,6 +261,9 @@
   .title-hexagonal-h5{
     font-size: 18px;
   }
+  .margin-top-parrafo-final{
+    margin-top: 30px;
+  }
   /* <- 4-3  hexagons per row */
   #hexGrid {
     padding-bottom: 5.5%;
@@ -273,11 +285,17 @@
     width: 794px;
     height: auto;
   }
+  .margin-top-parrafo-final{
+    margin-top: 30px;
+  }
 }
 @media (min-width: 600px) and (max-width:799px) {
   .img-admision{
     width: 600px;
     height: auto;
+  }
+  .margin-top-parrafo-final{
+    margin-top: 30px;
   }
 }
 @media (min-width: 400px) and (max-width:599px) {
@@ -285,11 +303,17 @@
     width: 402px;
     height: auto;
   }
+  .margin-top-parrafo-final{
+    margin-top: 30px;
+  }
 }
 @media (min-width: 327px) and (max-width:399px) {
   .img-admision{
     width: 327px;
     height: auto;
+  }
+  .margin-top-parrafo-final{
+    margin-top: 30px;
   }
 }
 @media (min-width: 760px) and (max-width:844px){
@@ -395,3 +419,380 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Seccion de Investigación */
+div#imagen {
+  width: 300px;
+  height: 450px;
+  background-size: cover;/*sólo para ejemplo*/
+  margin: 30px auto;
+}
+
+.investigacion1{
+  background-image: url(../img/investigacion/libro-ivan-web.jpg);
+}
+.investigacion2{
+  background-image: url(../img/investigacion/libro-aquiles.web_-196x300.jpg);
+}
+.investigacion3{
+  background-image: url(../img/investigacion/libro-jorge-web.jpg);
+}
+.investigacion4{
+  background-image: url(../img/investigacion/boletin-web-196x300.jpg);
+}
+.investigacion5{
+  background-image: url(../img/investigacion/planificacion2_001-212x300.png);
+}
+.investigacion6{
+  background-image: url(../img/investigacion/memorias_001-212x300.png);
+}
+.investigacion7{
+  background-image: url(../img/investigacion/portada-boletin-2-01-212x300.jpg);
+}
+.investigacion8{
+  background-image: url(../img/investigacion/portada-red-moda-212x300.png);
+}
+
+div#info {
+  position:absolute;
+  overflow:hidden;
+  width: 300px;
+  height: 450px;
+  background-color: rgba(27, 70, 163, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+
+div#imagen:hover div#info {
+  opacity:1;
+}
+
+p#headline {
+  position: initial;
+  font-size: medium;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  margin-top: 25px;
+  transition: margin-top 0.3s;
+}
+
+div#imagen:hover p#headline {
+  margin-top: 55px;
+  text-align: center;
+}
+
+p#descripcion {
+  font-size: 1rem;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+
+p#autor {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+
+p#publicacion {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+
+div#imagen:hover p#descripcion {
+  margin-top: 65px;
+}
+
+div#imagen:hover p#autor{
+  margin-top:20px
+}
+
+div#imagen:hover p#publicacion{
+  margin-top:10px
+}
+
+
+/* 
+-----Comment----- */
+
+.outside{
+  margin:0;
+padding:0;
+box-sizing:border-box;
+width:100%;
+display:flex;
+justify-content:center; 
+align-items:center; 
+padding: 0 1.5rem;
+}
+
+.card-wrapper{
+/*   width:70%;
+height: 60%; */
+
+padding: 3rem;
+max-width:98rem;
+background-color: #fff;
+box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+display:flex;
+justify-content:center; 
+align-items:center; 
+border-radius: .8rem;
+
+}
+.card-img {
+min-width:35rem;
+max-width:35rem;
+height:30rem;
+position:relative;
+
+}
+.card-img img{
+width:100%;
+height:100%;
+/*   object-fit:cover; */
+display:block;
+border-radius: .8rem;
+}
+
+.card-img::before{
+content: "";
+width:100;
+height: 100%;
+position: absolute;
+top:0;
+left:0;
+box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0, .05);
+border-radius: .8rem;
+}
+
+.card-title{
+display: block;
+font-size:2.5rem;
+margin: 0 2rem;
+font-weight: bold;
+}
+.card-description{
+margin-bottom: 2rem;
+text-align: justify;
+margin-left: 30px;
+}
+
+@media screen and (max-width: 1068px){
+.card-wrapper{
+  max-width:80rem;
+}
+.card-img{
+  max-width:30rem;
+  min-width:30rem;
+}
+}
+
+
+@media screen and (max-width: 890px){
+.card-wrapper{
+  padding: 2.5rem;
+  flex-direction: column;
+  
+}
+
+.card-description{
+  margin-left: 0px;
+}
+
+.card-img{
+  max-width:100%;
+  min-width:100%;
+  margin-bottom: 10px;
+}
+}
+
+
+/* style card-responsive */
+
+.body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #434343;
+  font-size: 16px;
+}
+
+main.cards {
+  display: flex;
+  padding: 32px;
+}
+
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-width: 468px;
+  margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+  margin-left: 0;
+}
+
+main.cards section.card .icon {
+  width: 64px;
+  height: 64px;
+}
+
+main.cards section.card img {
+  width: 100%;
+}
+
+main.cards section.card h3 {
+  font-size: 100%;
+  margin: 16px 0;
+}
+
+main.cards section.card span {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 80%;
+  margin-bottom: 16px;
+}
+
+main.cards section.card button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px 0;
+}
+
+main.cards section.card.rattata button {
+  background: linear-gradient(to right, #e35000, #ec9e73);
+}
+
+main.cards section.card.jigglypuff button {
+  background: linear-gradient(to right, #e35000, #ec9e73);
+}
+
+main.cards section.card.dewgong button {
+  background: linear-gradient(to right, #e35000, #ec9e73);
+}
+
+main.cards section.card.rattata {
+  box-shadow: 20px 20px 50px -30px #DBC4FF;
+}
+
+main.cards section.card.jigglypuff {
+  box-shadow: 20px 20px 50px -30px #FFC1D5;
+}
+
+main.cards section.card.dewgong {
+  box-shadow: 20px 20px 50px -30px #AFD6FF;
+}
+
+@media screen and (max-width: 720px) {
+  main.cards {
+    flex-direction: column;
+  }
+  main.cards section.card {
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
+  main.cards section.card:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Seccion de Curso docencia- Curso Patronaje */
+div#imagen-curso-docencia-patronaje {
+  width: 390px;
+  height: 230px;
+  background-size: cover;/*sólo para ejemplo*/
+  margin: 30px auto;
+}
+
+.curso-docencia1{
+  background-image: url(../img/curso-docencia/portafolio-300x190.jpg);
+}
+.curso-docencia2{
+  background-image: url(../img/curso-docencia/pedagogia-300x190.jpg);
+}
+.curso-docencia3{
+  background-image: url(../img/curso-docencia/invest-300x190.jpg);
+}
+.curso-docencia4{
+  background-image: url(../img/curso-docencia/fotografia-300x190.jpg);
+}
+/* Patronaje */
+.curso-patronaje1{
+  background-image: url(../img/curso-patronaje/uniformes-300x190.jpg);
+}
+.curso-patronaje2{
+  background-image: url(../img/curso-patronaje/lenceria-medica-300x190.jpg);
+}
+.curso-patronaje3{
+  background-image: url(../img/curso-patronaje/vestimenta-industrial-300x190.jpg);
+}
+
+
+div#info-curso-docencia-patronaje {
+  position:absolute;
+  overflow:hidden;
+  width: 390px;
+  height: 230px;
+  background-color: rgba(27, 70, 163, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+
+div#imagen-curso-docencia-patronaje:hover div#info-curso-docencia-patronaje {
+  opacity:1;
+}
+
+p#headline-curso-docencia-patronaje {
+  position: initial;
+  font-size: medium;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  margin-top: 10px;
+  transition: margin-top 0.3s;
+}
+
+div#imagen-curso-docencia-patronaje:hover p#headline-curso-docencia-patronaje {
+  margin-top: 35px;
+  text-align: center;
+}
+
+p#descripcion-curso-docencia-patronaje {
+  font-size: 1rem;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+
+
+div#imagen-curso-docencia-patronaje:hover p#descripcion-curso-docencia-patronaje {
+  margin-top: 30px;
+}
